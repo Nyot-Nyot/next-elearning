@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# bmad-method
+.bmad-core
+.bmad-core-*
+.cursor
+.github
+.vscode
