@@ -1,0 +1,10 @@
+### 9. Milestones & Timeline (MVP Target: 8 weeks)
+
+1. Auth & Layout Setup (Week 1)
+2. Course + User Models (Week 2)
+3. Student Dashboard + Course Viewer (Week 3)
+4. Assignment Submission Flow (Week 4)
+5. Lecturer Dashboard + Grading (Week 5)
+6. Admin Controls + Provisioning (Week 6)
+7. XP & Praise System + Polish (Week 7)
+8. Bugfix, testing, deploy (Week 8)
