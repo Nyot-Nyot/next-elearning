@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// User model for authentication and role-based access
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  role      Role     @default(STUDENT)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // BetterAuth required fields
+  emailVerified DateTime?
+  image         String?
+
+  @@map("users")
+}
+
+// User roles for role-based access control
+enum Role {
+  STUDENT
+  LECTURER
+  ADMIN
+}
