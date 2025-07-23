@@ -1,9 +1,10 @@
 version: 4.31.0
-installed_at: '2025-07-22T15:54:51.646Z'
+installed_at: '2025-07-23T03:09:47.488Z'
 install_type: full
 agent: null
 ides_setup:
   - cursor
+  - gemini
   - github-copilot
 expansion_packs: []
 files:
@@ -15,6 +16,12 @@ files:
     modified: false
   - path: .bmad-core\core-config.yaml
     hash: a7d1007020c0702f
+    modified: false
+  - path: .bmad-core\utils\workflow-management.md
+    hash: b148df3ebb1f9c61
+    modified: false
+  - path: .bmad-core\utils\bmad-doc-template.md
+    hash: 4b2f7c4408835b9e
     modified: false
   - path: .bmad-core\workflows\greenfield-ui.yaml
     hash: 1317dedfc4609a87
@@ -33,12 +40,6 @@ files:
     modified: false
   - path: .bmad-core\workflows\brownfield-fullstack.yaml
     hash: 43aee996cfa1f75a
-    modified: false
-  - path: .bmad-core\utils\workflow-management.md
-    hash: b148df3ebb1f9c61
-    modified: false
-  - path: .bmad-core\utils\bmad-doc-template.md
-    hash: 4b2f7c4408835b9e
     modified: false
   - path: .bmad-core\templates\story-tmpl.yaml
     hash: dee630bee4fcaad3
