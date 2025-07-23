@@ -32,7 +32,7 @@ Give lecturers powerful tools to manage teaching activities.
 Provide system-wide operational control through admin tools.
 
 * Story: As an admin, I can provision semesters and courses
-* Story: As an admin, I can enroll students after KRS approval
+* Story: As an admin, I can enroll students after KRS (Kartu Rencana Studi) approval
 * Story: As an admin, I can view system metrics and user activity
 
 #### Epic 5: Productivity & UX Enhancements
